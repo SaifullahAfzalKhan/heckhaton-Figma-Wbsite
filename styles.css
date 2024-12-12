@@ -1,0 +1,187 @@
+/* Navbar Styles */
+.navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .brand-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .btn-signin {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+  }
+  
+  /* Main Section */
+  .text-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 91.99px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .text-section p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    font-family: Helvetica Light;
+    font-size: 30.17px;
+    font-weight: 400;
+    line-height: 39.53px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;}
+    .text-section a{
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+    }
+    
+  
+  .image-section img {
+    max-width: 573px;
+    max-height: 573px;
+    
+    
+  }
+  /* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Feature Box Styling */
+.feature-box {
+    border: 1.5px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+}
+
+/* Feature Icon Styling */
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+/* Headings */
+.feature-box h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+.feature-box p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .feature-box {
+        padding: 15px;
+    }
+    .feature-icon {
+        width: 40px;
+        height: 40px;
+    }
+}/* General Body Styling */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Title Styling */
+.section-title {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Feature Box Styling */
+.feature-box {
+    border: 2px color black;
+    border-radius: 8px;
+    padding: 20px;
+    height: 100%;
+    transition: box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.feature-number {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+.feature-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15px 0;
+    color: black;
+}
+
+.feature-text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 36px;
+    }
+
+    .feature-number {
+        font-size: 32px;
+    }
+
+    .feature-title {
+        font-size: 20px;
+    }
+
+    .feature-text {
+        font-size: 14px;
+    }
+}
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .text-section h1 {
+      font-size: 2rem;
+    }
+    .text-section p {
+      font-size: 1rem;
+    }
+    .image-section {
+      text-align: center;
+    }
+  }
+   .btn btn-primary mt-3 px-4 py-2{
+    color:black
+   } 
+   
